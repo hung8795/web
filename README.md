@@ -1,10 +1,138 @@
-# web
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="project3.css">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title>WEB101x_0201_FX_VI Xây dựng website đầu tiên</title>    
+<title>WEB101x_0201_FX_VI Xây dựng website đầu tiên</title>   
+<style>
+    @media only screen and (max-width: 768px){  
+    [class*="column"] {
+        width: 100%;
+        position: relative;
+    }
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+        background-color:darkgrey;
+    }
+    li a{
+        display: inline-block;
+        padding: 16px;
+        text-decoration: none;
+    }
+    a{
+        text-decoration-line: none;
+        color: white;          
+    } 
+    li {
+        float:left;
+        width:20%;
+    }
+    .duongke, .anhnen{
+        display: none;
+    }    
+    .maulink{
+        color: blue;
+    }
+    .invite1{
+        display: none;
+    }
+    .anhnho, .anhto{
+        width: 100%;
+    } 
+}
+@media only screen and (max-width: 992px){  
+    ul{
+        list-style-type: none;
+        overflow: hidden;
+        background-color:darkgrey;
+        }
+    li a{
+        display: inline-block;
+        padding: 16px;
+        text-decoration: none;
+        }
+    a{
+        text-decoration-line: none;
+        color: white;
+    } 
+    li {
+        float:left;
+        }
+    .phai{
+        float: right;
+        }
+    .anhnen{
+        display: none;
+    } 
+    .maulink{
+        color: blue;
+    }  
+    .invite1, .ny1{
+        display: none;
+    }
+    img{
+        width: 49%;
+    }
+}    
+@media only screen and (min-width: 992px){    
+    li{
+        display:inline-block;
+        padding:14px 16px; 
+    }
+    a{
+        text-decoration-line: none;
+    }     
+    *{
+        box-sizing:border-box;
+    }
+    .phai{
+        float: right;
+    }
+    .duongke{
+        display: none;
+    } 
+    .anhnen{
+        width: 100%;
+        margin-bottom: -10px;
+    }
+    .phanchu{
+        position: absolute;  
+        left: 5%;
+        top: 45%;
+        color: white;
+    }
+    .phanthan{
+        background-color: lightgray;
+        position: relative;
+        padding: 10px 0 10px 10px;
+    }
+    .danhsachanh{
+        display: inline;
+    }
+    .anhnho{
+        width: 33%;
+        padding-right: 1%;
+    }
+    .anhto{
+        width: 29%;
+        position: absolute;
+    }
+    .footer{
+        clear: both;
+        display:block;
+        border:1px solid none; 
+    } 
+    .chiafooter{
+        float: left;
+        background-color:rgb(229, 226, 226);
+        width: 33.33%;
+        padding: 10px;
+    }
+    .ny1, .invite2{
+        display: none;
+    }
+}
+</style> 
 </head>
 <body>
         <p>
