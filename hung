@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<title>WEB101x_0201_FX_VI Xây dựng website đầu tiên</title>   
+<title>Xây dựng website</title>   
 <style>
     @media only screen and (max-width: 768px){  
     [class*="column"] {
